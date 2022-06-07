@@ -15,14 +15,14 @@ if __name__ == '__main__':
         op_user = int(input("Digite a operação:\n"))
 
         if op_user == 1:
-            print(sas.inserir_linha())
+            sas.inserir_linha()
             break
         elif op_user == 2:
-            print(sas.ler_tabela())
+            sas.ler_tabela()
             break
         elif op_user == 3:
-            print(sas.atualizar_linha())
+            sas.atualizar_linha()
             break
         elif op_user == 4:
-            print(sas.excluir_linha())
+            sas.excluir_linha()
             break
